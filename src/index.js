@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/index.css';
+import TodoList from './js/TodoList';
+import reportWebVitals from './js/reportWebVitals';
+// import ExampleCallback from './js/ExampleCallback';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <TodoList /> */}
+    {/* <ExampleCallback/> */}
     <App />
+    
+
   </React.StrictMode>
 );
 

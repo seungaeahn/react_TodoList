@@ -59,16 +59,75 @@ ul {
 li {
   margin: 8px 0;
   padding: 8px;
-  border: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 button {
-  background-color: #ffb3d9;
+  background-color: #f2afff;
   color: white;
   border: none;
   padding: 8px;
   cursor: pointer;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #d6fda3;
+  color: rgb(58, 58, 58);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #d6fda3;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.banner img {
+  width: 1000px;
+}
+
+#all {
+  height: 100%;
+  width: 100%; /* 100% 너비 */
+  flex-direction: column;
+  display :flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #baf0ff;
+  background-position: center;
 }
